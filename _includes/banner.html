@@ -1,0 +1,37 @@
+<!-- banner -->
+{% assign banner = site.data.home.banner %}
+<div class="banner d-flex justify-content-start align-items-center">
+  <div class="container-fluid px-0">
+    <div class="row no-gutters">
+      <div class="col-md-12">
+        <div id="bannerSlider" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            {% for slide in banner.slider %}
+              <div class="carousel-item{% if forloop.index == 1 %} active{% endif %}">
+                <img src="{{ slide.img }}" class="d-block w-100" alt="{{ slide.title }}">
+                <div class="carousel-caption d-md-block">
+                  <p class="mb-0">
+                    {{ slide.title }}
+                    <a href="{{ slide.url }}" class="btn btn-details">Details
+                      <img src="{{ site.image_base_url }}/chevron-right.png" alt="Details">
+                    </a>
+                  </p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+          <a class="carousel-control-prev" href="#bannerSlider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#bannerSlider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

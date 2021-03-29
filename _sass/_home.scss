@@ -1,0 +1,201 @@
+// header
+header {
+  .navbar {
+    background-color: #fff;
+    padding: 1rem 2rem;
+
+    .navbar-brand {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .profile {
+      height: 60px;
+    }
+    .navbar-nav .nav-item .nav-link {
+      padding: 1rem 1.5rem;
+      font-size: 15px;
+      font-weight: 300;
+    }
+    .navbar-nav .nav-item.active .nav-link,
+      .navbar-nav .nav-item:hover .nav-link {
+      border-bottom: 3px solid #495885;
+    }
+  }
+
+  // banner
+  .banner {
+    #bannerSlider {
+      .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 40px;
+        height: 40px;
+      }
+      .carousel-item {
+        .carousel-caption {
+          font-size: 1.5rem;
+          font-weight: 300;
+          left: 0 !important;
+          text-align: left;
+          background-color: #20305F;
+          opacity: 0.9;
+          bottom: 5rem;
+          padding: 1rem;
+
+          p {
+            margin-left: 4rem;
+          }
+          .btn-details {
+            padding: 0.25rem 1.5rem;
+            display: inline-block;
+            background-color: #BB0707;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 0;
+            margin-left: 1rem;
+
+            img {
+              height: 25px;
+            }
+          }
+        }
+        img {
+          height: 600px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+// about
+.about-section {
+  .about-info {
+    line-height: 26px;
+  }
+  .features {
+    ul {
+      padding-left: 0;
+      font-size: 14px;
+      line-height: 36px;
+    }
+    img {
+      height: 25px;
+    }
+  }
+}
+
+// principal
+.principal-section {
+  .message-info {
+    line-height: 26px;
+  }
+}
+
+// admissions
+.admissions-section {
+  background: url($admissions-bg-img) no-repeat center center/cover;
+  min-height: 550px;
+
+  h1 {
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  h3 {
+    color: #eee;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+  p {
+    color: #bbb;
+    font-size: 18px;
+    line-height: 28px;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+  }
+  .btn-apply {
+    background: #c50227;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 12px 29px 17px 31px;
+  }
+}
+
+// covid
+.covid-section {
+  .background-container {
+    position: relative;
+
+    .image-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .covid-text-wrapper {
+    .inner-content {
+      padding: 3rem;
+      background-color: #E9E9E9;
+      margin: 30px 0;
+      position: relative;
+      left: 80%;
+    }
+    .title {
+      font-family: "Source Serif Pro", sans-serif;
+    }
+    img {
+      height: 25px;
+    }
+  }
+}
+
+// highlights
+.highlights-section {
+  background-color: #333;
+  color: #fff;
+  position: relative;
+
+  .section-title {
+    color: #fff;
+    position: relative;
+  }
+
+  .bg-cover::before {
+    content: '';
+    background: url($highlights-bg-img) no-repeat center center/cover;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// contact section
+.contact-section {
+  background-color: #003062 !important;
+
+  iframe {
+    width: 100%;
+    height: 250px;
+    border: 0;
+  }
+
+  .contact-info img, .links img {
+    height: 25px;
+  }
+  .links li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+// footer
+footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 13px;
+  padding: 0.5rem;
+}

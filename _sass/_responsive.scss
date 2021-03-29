@@ -1,0 +1,31 @@
+@media (max-width: 786px) {
+  .navbar-nav {
+    width: 300px;
+    text-align: center;
+  }
+  .highlights .highlight-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .highlights .highlight-item .highlight-title {
+    font-size: 11px;
+  }
+}
+@media (max-width: 480px) {
+  .highlights .highlight-item .highlight-title {
+    padding: 1rem 0.5rem;
+  }
+  .about-section .about-info {
+    margin-top: 2rem;
+  }
+  .highlights-section .highlight-item {
+    margin-bottom: 2rem;
+  }
+  .contact-section h3 {
+    margin-top: 1.5rem;
+  }
+
+  footer span {
+    display: block;
+  }
+}

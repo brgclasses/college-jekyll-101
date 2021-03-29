@@ -1,0 +1,16 @@
+<!-- admissions -->
+{% assign admissions = site.data.home.admissions %}
+<section class="admissions-section py-7">
+  <div class="container">
+    <div class="row justify-content-end">
+      <div class="col-md-6">
+        <h1>{{ admissions.header-text }}</h1>
+        <h3>{{ admissions.subtitle }}</h3>
+        <p>
+          {{ admissions.content }}
+        </p>
+        <a href="#" class="btn btn-apply">Apply Now</a>
+      </div>
+    </div>
+  </div>
+</section>

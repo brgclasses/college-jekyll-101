@@ -1,0 +1,8 @@
+---
+---
+
+$baseurl: "{{ site.baseurl }}";
+$image_base_url: "{{ site.image_base_url }}";
+$highlights-bg-img: "{{ site.data.home.highlights.bg-img }}";
+$admissions-bg-img: "{{ site.data.home.admissions.bg-img }}";
+@import "custom";
