@@ -50,7 +50,7 @@ about:
 # principal or director message
 message:
   header-text: Principal's Message
-  profile: principal.jpg
+  profile: https://brgclasses.sirv.com/vidyalaya/img/principal.jpg
   msg: |-
     This section will contain the principal’s or director’s message
     about the college. And, this paragraph should contain main highlights
