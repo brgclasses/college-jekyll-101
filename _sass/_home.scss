@@ -108,11 +108,12 @@ header {
     margin-bottom: 2rem;
   }
   p {
-    color: #bbb;
+    color: #ddd;
     font-size: 18px;
     line-height: 28px;
     padding-right: 1rem;
     margin-bottom: 2rem;
+    font-weight: 300;
   }
   .btn-apply {
     background: #c50227;
@@ -122,34 +123,6 @@ header {
   }
 }
 
-// covid
-.covid-section {
-  .background-container {
-    position: relative;
-
-    .image-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-  }
-
-  .covid-text-wrapper {
-    .inner-content {
-      padding: 3rem;
-      background-color: #E9E9E9;
-      margin: 30px 0;
-      position: relative;
-      left: 80%;
-    }
-    .title {
-      font-family: "Source Serif Pro", sans-serif;
-    }
-    img {
-      height: 25px;
-    }
-  }
-}
 
 // highlights
 .highlights-section {

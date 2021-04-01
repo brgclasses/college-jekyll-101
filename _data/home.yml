@@ -16,19 +16,19 @@ navbar:
 banner:
   slider:
     - title: Workshop on Entrepreneurship & Innovation
-      img: https://brgclasses.sirv.com/vidyalaya/img/banner1.jpg
+      img: banner1.jpg
       url: /#
     - title: Participation in the Science Hub IT Expo
-      img: https://brgclasses.sirv.com/vidyalaya/img/banner2.jpg
+      img: banner2.jpg
       url: /#
     - title: Annual celebration of Students
-      img: https://brgclasses.sirv.com/vidyalaya/img/banner3.jpg
+      img: banner3.jpg
       url: /#
 
 # about
 about:
   header-text: About College
-  bg-img: https://brgclasses.sirv.com/vidyalaya/img/college.jpg
+  profile-img: college.jpg
   info: |-
     Foo College of Engineering is one of the top college for pursuing engineering degrees in Foo city.
     <br><br>
@@ -50,7 +50,7 @@ about:
 # principal or director message
 message:
   header-text: Principal's Message
-  profile: https://brgclasses.sirv.com/vidyalaya/img/principal.jpg
+  profile: principal.jpg
   msg: |-
     This section will contain the principal’s or director’s message
     about the college. And, this paragraph should contain main highlights
@@ -69,7 +69,8 @@ message:
 admissions:
   header-text: Apply for Admission
   subtitle: 2021 applications are now open
-  bg-img: https://brgclasses.sirv.com/vidyalaya/img/apply-bg.jpg
+  bg-img: apply-bg.jpg
+  bg-img-sm: apply-bg-sm.jpg
   content: |-
     We don’t just give students an education and experiences that set them up
     for success in a career. We help them succeed in their career—to discover
@@ -78,7 +79,7 @@ admissions:
 # highlights
 highlights:
   header-text: Highlights
-  bg-img: https://brgclasses.sirv.com/vidyalaya/img/stats.jpg
+  bg-img: stats.jpg
   items:
     - stats: 50+
       info: Years Education Experience
